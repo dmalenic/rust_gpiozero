@@ -1,6 +1,7 @@
 # rust_gpiozero
 
-[![Build Status](https://travis-ci.org/rahul-thakoor/rust_gpiozero.svg?branch=master)](https://travis-ci.org/rahul-thakoor/rust_gpiozero)
+[![CI](https://github.com/rahul-thakoor/rust_gpiozero/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/rahul-thakoor/rust_gpiozero/actions/workflows/ci.yml)
+[![Crates.io](https://img.shields.io/crates/v/rust_gpiozero)](https://crates.io/crates/rust_gpiozero)
 
 A simple interface to GPIO devices with Raspberry Pi.
 
@@ -79,7 +80,7 @@ To use `rust_gpiozero`, first add this to your Cargo.toml:
 
 ```toml
 [dependencies]
- rust_gpiozero = "0.2.0"
+ rust_gpiozero = "^0.2"
 ```
 Compiling your project on a Raspberry Pi directly can take significant time depending on the model. Ideally, you would cross compile your project then run it on the Raspberry Pi. 
 
